@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "anime/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/anime/$1" }
+  ]
+} 
